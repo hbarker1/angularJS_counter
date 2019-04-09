@@ -1,0 +1,49 @@
+* {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    background-image: linear-gradient(90deg, #21ddbe 0%, #ade9dbe1  80%);
+
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: column;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.updown-button {
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.719);
+    margin: 10px;
+    width: 80px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+button {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
